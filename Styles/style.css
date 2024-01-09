@@ -179,6 +179,72 @@ header {
     border: none;
 }
 
+.new-ofr {
+    display: flex;
+    gap: 120px;
+}
+
+.new-ofr .new-ofr-one .head {
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding-bottom: 18px;
+    padding-top: 100px;
+}
+
+.new-ofr .new-ofr-one .ofr-para {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    padding-bottom: 22px;
+}
+
+.new-ofr .new-ofr-one .ofr-descrip {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.new-ofr .new-ofr-img {
+    border-radius: 463px;
+    border: 15px solid #F00;
+    width: 400px;
+    height: 400px;
+    flex-shrink: 0;
+    padding-left: 30px;
+    padding-top: 30px;
+}
+
+.new-ofr .new-ofr-two .head {
+    color: #F00;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-bottom: 18px;
+    padding-top: 100px;
+}
+
+.new-ofr .new-ofr-two .ofr-descrip {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    padding-bottom: 40px;
+}
+
 .color-back .address-contain .address-span {
     color: #F00;
 }
@@ -324,10 +390,16 @@ footer {
     font-style: normal;
     font-weight: 500;
     line-height: 40px;
-    padding-right: 150px
+    padding-right: 150px;
     /* 166.667% */
 }
-.container .footer-img{
+
+.container .footer-address .footer-head .call {
+    display: flex;
+    gap: 5px;
+}
+
+.container .footer-img {
     display: flex;
     gap: 25px;
     padding-top: 48px;
@@ -335,6 +407,7 @@ footer {
     padding-left: 440px;
 
 }
+
 .container .footer-end {
     display: flex;
     gap: 800px;
