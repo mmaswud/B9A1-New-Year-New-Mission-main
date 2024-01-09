@@ -389,6 +389,8 @@ header {
     font-weight: 900;
     line-height: normal;
     text-transform: capitalize;
+    padding-bottom: 22px;
+    padding: 20px;
 }
 
 .subscribe .sub-contain p {
